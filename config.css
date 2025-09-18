@@ -6,9 +6,14 @@
 
 
 .pagina-lista{
+<<<<<<< HEAD
+    width: 100%;
+    height: auto;
+=======
     width: 700px;
     height: 100vh;
     border: 1px solid black;
+>>>>>>> 12079b65073084366c0de7ef09a45cb8a0db12b4
     margin: auto;
 }
 

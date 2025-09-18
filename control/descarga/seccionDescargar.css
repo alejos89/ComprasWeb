@@ -1,0 +1,19 @@
+#btnDownload {
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  border-radius: 50%;
+  background: #4cafef;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#btnDownload:hover {
+  background: #3a9edb;
+  transform: scale(1.1);
+}
+
+#btnDownload:active {
+  background: #2e86c1;
+  transform: scale(0.95);
+}
