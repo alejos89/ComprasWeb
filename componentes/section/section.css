@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .section {
   width: 90%;              
   max-width: 550px;       
@@ -18,35 +17,12 @@
   width: 100%;           
   min-height: 2.5rem;
   font-size: 1rem;         
-=======
-
-.section {
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 20px;
-  background: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  background-color: #b7cad7;
-
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.section input {
-  padding: 10px;
-  font-size: 14px;
->>>>>>> 12079b65073084366c0de7ef09a45cb8a0db12b4
   border: 1px solid #ddd;
   border-radius: 8px;
   outline: none;
   transition: 0.3s;
-<<<<<<< HEAD
   padding: 0.6rem;
   box-sizing: border-box;   
-=======
->>>>>>> 12079b65073084366c0de7ef09a45cb8a0db12b4
 }
 
 .section input:focus {
@@ -55,14 +31,9 @@
 }
 
 .section button {
-<<<<<<< HEAD
   width: 100%;              
   padding: 0.8rem;
   font-size: 1rem;
-=======
-  padding: 10px;
-  font-size: 15px;
->>>>>>> 12079b65073084366c0de7ef09a45cb8a0db12b4
   font-weight: bold;
   background: #4cafef;
   color: white;
@@ -83,7 +54,6 @@
 }
 
 .lista-compras li {
-<<<<<<< HEAD
   padding: 0.8rem;
   margin-bottom: 0.5rem;
   background: #f9f9f9;
@@ -95,34 +65,15 @@
   align-items: center;
   flex-wrap: wrap;          /* 🔑 si no cabe, se va abajo */
   gap: 0.5rem;
-=======
-  padding: 10px;
-  margin-bottom: 8px;
-  background: #f9f9f9;
-  border: 1px solid #eee;
-  border-radius: 8px;
-  font-size: 14px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
->>>>>>> 12079b65073084366c0de7ef09a45cb8a0db12b4
 }
 
 .lista-compras li:nth-child(even) {
   background: #f1faff;
 }
 
-<<<<<<< HEAD
 .btn-eliminar {
   padding: 0.4rem 0.8rem;
   font-size: 0.8rem;
-=======
-
-.btn-eliminar {
-  margin-left: 10px;
-  padding: 5px 10px;
-  font-size: 12px;
->>>>>>> 12079b65073084366c0de7ef09a45cb8a0db12b4
   font-weight: bold;
   color: white;
   background: #e74c3c;
