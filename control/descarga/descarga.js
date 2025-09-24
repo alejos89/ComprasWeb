@@ -1,4 +1,5 @@
 import { seccionDescargar } from "./myLocalStorage.js";
+
 function loadHtmlSectionDownload(){
     const divDownload = document.querySelector("#download");
     divDownload.innerHTML = "";
@@ -19,7 +20,13 @@ function downloadAsImage() {
     });  
 
     const contenido = document.querySelector('#root');
-    html2canvas(contenido).then(canvas => {
+    html2canvas(contenido, {
+        scale: 2,            
+        useCORS: true,        
+        logging: false,        
+         windowWidth: document.documentElement.scrollWidth,
+        windowHeight: document.documentElement.scrollHeight
+    }).then(canvas => {
         const link = document.createElement('a');
         link.download = 'contenido.png';
         link.href = canvas.toDataURL("image/png");
