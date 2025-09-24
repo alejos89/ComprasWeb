@@ -59,11 +59,11 @@
   background: #f9f9f9;
   border: 1px solid #eee;
   border-radius: 8px;
-  font-size: 0.9rem;        /* relativo */
+  font-size: 0.9rem;       
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;          /* 🔑 si no cabe, se va abajo */
+  flex-wrap: wrap;       
   gap: 0.5rem;
 }
 
