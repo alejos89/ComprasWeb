@@ -17,3 +17,8 @@
   background: #2e86c1;
   transform: scale(0.95);
 }
+
+
+.ocultar{
+  display: none;
+}

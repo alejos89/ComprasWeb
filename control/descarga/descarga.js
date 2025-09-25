@@ -18,13 +18,15 @@ function downloadAsImage() {
     document.querySelectorAll(".item").forEach(box =>{
         box.classList.add('acomodar');
     });  
+    
+    const header = document.querySelector("header");
+    if (header) header.classList.add('ocultar');
 
-    const contenido = document.querySelector('#root');
-    html2canvas(contenido, {
+    html2canvas(document.body, {
         scale: 2,            
         useCORS: true,        
         logging: false,        
-         windowWidth: document.documentElement.scrollWidth,
+        windowWidth: document.documentElement.scrollWidth,
         windowHeight: document.documentElement.scrollHeight
     }).then(canvas => {
         const link = document.createElement('a');
@@ -40,6 +42,8 @@ function downloadAsImage() {
         document.querySelectorAll(".item").forEach(box =>{
             box.classList.remove('acomodar');
         });  
+        
+        if (header) header.classList.remove('ocultar');
     });
 }
 
